@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'CursoiOSProyecto3' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CursoiOSProyecto3_Base
+  pod 'Alamofire'
+  pod 'PromiseKit'
+  pod 'SnapKit'
+  pod 'ObjectMapper'
+  pod 'SDWebImage'
+  pod 'LanguageManager-iOS'
+end

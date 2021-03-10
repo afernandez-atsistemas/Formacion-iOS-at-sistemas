@@ -1,0 +1,19 @@
+//
+//  Production.xcconfig
+//  CursoiOSProyecto3_Base
+//
+//  Created by Abrahán Fernández on 1/2/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-CursoiOSProyecto3/Pods-CursoiOSProyecto3.debug (production).xcconfig"
+#include "Pods/Target Support Files/Pods-CursoiOSProyecto3/Pods-CursoiOSProyecto3.release (production).xcconfig"
+
+
+APP_ENVIRONMENT=Production
+
+// App Settings
+APP_NAME = CursoiOSProyecto3 REALM
+APP_BUNDLE_ID = com.atsistemas.CursoiOSProyecto3.realm.pro
