@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PokemonAbstractView" customModule="CursoiOSProyecto4" customModuleProvider="target">
+            <connections>
+                <outlet property="htmlLabel" destination="SL3-MW-epk" id="bn3-vE-73S"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czg-kH-0y8">
+                    <rect key="frame" x="20" y="44" width="374" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEg-MR-sjW">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="16"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SL3-MW-epk">
+                                    <rect key="frame" x="20" y="8" width="334" height="0.0"/>
+                                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="SL3-MW-epk" firstAttribute="top" secondItem="lEg-MR-sjW" secondAttribute="top" constant="8" id="2j4-ea-znA"/>
+                                <constraint firstAttribute="bottom" secondItem="SL3-MW-epk" secondAttribute="bottom" constant="8" id="SAE-Vo-Ryi"/>
+                                <constraint firstItem="SL3-MW-epk" firstAttribute="leading" secondItem="lEg-MR-sjW" secondAttribute="leading" constant="20" id="tOa-Ll-N2z"/>
+                                <constraint firstAttribute="trailing" secondItem="SL3-MW-epk" secondAttribute="trailing" constant="20" id="yqw-BV-4Qu"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="lEg-MR-sjW" firstAttribute="leading" secondItem="spv-cF-ybB" secondAttribute="leading" id="V0t-CS-dji"/>
+                        <constraint firstItem="lEg-MR-sjW" firstAttribute="width" secondItem="qjc-ra-mpr" secondAttribute="width" id="WPK-84-lgL"/>
+                        <constraint firstItem="lEg-MR-sjW" firstAttribute="leading" secondItem="Czg-kH-0y8" secondAttribute="leading" id="aGz-nh-EEs"/>
+                        <constraint firstAttribute="trailing" secondItem="lEg-MR-sjW" secondAttribute="trailing" id="dmo-mu-Tlj"/>
+                        <constraint firstAttribute="bottom" secondItem="lEg-MR-sjW" secondAttribute="bottom" id="eNG-6U-Aiy"/>
+                        <constraint firstItem="lEg-MR-sjW" firstAttribute="top" secondItem="Czg-kH-0y8" secondAttribute="top" id="exW-et-QEK"/>
+                        <constraint firstItem="lEg-MR-sjW" firstAttribute="bottom" secondItem="spv-cF-ybB" secondAttribute="bottom" id="uRy-eZ-EiX"/>
+                        <constraint firstItem="lEg-MR-sjW" firstAttribute="trailing" secondItem="spv-cF-ybB" secondAttribute="trailing" id="yth-tn-NBv"/>
+                        <constraint firstItem="lEg-MR-sjW" firstAttribute="top" secondItem="spv-cF-ybB" secondAttribute="top" id="zah-gH-uuY"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="spv-cF-ybB"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="qjc-ra-mpr"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="tAt-aP-EcC"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Czg-kH-0y8" firstAttribute="centerX" secondItem="tAt-aP-EcC" secondAttribute="centerX" id="SEn-e1-kqE"/>
+                <constraint firstItem="tAt-aP-EcC" firstAttribute="bottom" secondItem="Czg-kH-0y8" secondAttribute="bottom" id="SWF-7p-AkB"/>
+                <constraint firstItem="tAt-aP-EcC" firstAttribute="trailing" secondItem="Czg-kH-0y8" secondAttribute="trailing" constant="20" id="bww-9B-TEj"/>
+                <constraint firstItem="Czg-kH-0y8" firstAttribute="leading" secondItem="tAt-aP-EcC" secondAttribute="leading" constant="20" id="ewE-xY-56b"/>
+                <constraint firstItem="Czg-kH-0y8" firstAttribute="centerY" secondItem="tAt-aP-EcC" secondAttribute="centerY" id="jtT-Rq-94J"/>
+                <constraint firstItem="Czg-kH-0y8" firstAttribute="top" secondItem="tAt-aP-EcC" secondAttribute="top" id="k19-zv-ZRk"/>
+            </constraints>
+            <point key="canvasLocation" x="79.710144927536234" y="105.80357142857143"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
