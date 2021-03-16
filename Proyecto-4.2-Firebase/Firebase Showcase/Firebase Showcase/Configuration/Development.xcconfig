@@ -1,0 +1,18 @@
+//
+//  Development.xcconfig
+//  Firebase Showcase
+//
+//  Created by Abrahán Fernández on 13/3/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-Firebase Showcase/Pods-Firebase Showcase.debug (development).xcconfig"
+#include "Pods/Target Support Files/Pods-Firebase Showcase/Pods-Firebase Showcase.release (development).xcconfig"
+
+
+APP_ENVIRONMENT=Development
+
+// App Settings
+APP_NAME = Firebase Showcase (Pre)
+APP_BUNDLE_ID = me.abrahanfer.tut-firebase-showcase.pre

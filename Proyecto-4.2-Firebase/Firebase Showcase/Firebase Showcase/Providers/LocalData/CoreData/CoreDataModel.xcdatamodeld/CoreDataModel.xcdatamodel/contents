@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D80" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BookData" representedClassName="BookData" syncable="YES" codeGenerationType="class">
+        <attribute name="author" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="hasEditor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EditorialData" inverseName="own" inverseEntity="EditorialData"/>
+    </entity>
+    <entity name="EditorialData" representedClassName="EditorialData" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="own" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="BookData" inverseName="hasEditor" inverseEntity="BookData"/>
+    </entity>
+    <entity name="Entity3" representedClassName="Entity3" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="BookData" positionX="-3807.326904296875" positionY="-1429.347717285156" width="128" height="88"/>
+        <element name="EditorialData" positionX="-4222.292724609375" positionY="-1426.684692382812" width="128" height="73"/>
+        <element name="Entity3" positionX="-3996" positionY="-1377" width="128" height="43"/>
+    </elements>
+</model>

@@ -145,17 +145,17 @@
 		591C215025C8021300FA08D3 /* CursoiOSProyecto3 */ = {
 			isa = PBXGroup;
 			children = (
+				591C215125C8021300FA08D3 /* AppDelegate.swift */,
+				591C215A25C8021700FA08D3 /* Assets.xcassets */,
 				591C216825C8066E00FA08D3 /* Components */,
 				591C216625C8026300FA08D3 /* Configuration */,
 				591C216D25C8066E00FA08D3 /* Extensions */,
+				591C215C25C8021700FA08D3 /* LaunchScreen.storyboard */,
 				591C217B25C8069F00FA08D3 /* Models */,
 				591C217C25C806A600FA08D3 /* Modules */,
 				591C217A25C8069600FA08D3 /* Providers */,
-				591C215125C8021300FA08D3 /* AppDelegate.swift */,
 				591C215325C8021300FA08D3 /* SceneDelegate.swift */,
 				591C215525C8021300FA08D3 /* ViewController.swift */,
-				591C215A25C8021700FA08D3 /* Assets.xcassets */,
-				591C215C25C8021700FA08D3 /* LaunchScreen.storyboard */,
 			);
 			path = CursoiOSProyecto3;
 			sourceTree = "<group>";
