@@ -1,0 +1,18 @@
+{
+    "aps": {
+        "alert": {
+            "title": "Titulo notificacion",
+            "body": "Cuerpo de la notificación"
+        },
+        "badge": 1
+    },
+    "data": {
+            "parametros": {
+                "id_notificacion": 1001,
+                "id_mensaje": 1001
+            },
+            "accion":{
+                "nombre": "accion"
+            }
+    }
+}

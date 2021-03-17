@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (5.4.1)
+  - LanguageManager-iOS (1.2.3)
+  - ObjectMapper (4.2.0)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - LanguageManager-iOS
+  - ObjectMapper
+  - PromiseKit
+  - SDWebImage
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - LanguageManager-iOS
+    - ObjectMapper
+    - PromiseKit
+    - SDWebImage
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  LanguageManager-iOS: 020a6849c97949683926773fd5b82baceaa142db
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 327bed68d247c6548bbf4584c8d89841a4057284
+
+COCOAPODS: 1.9.3
